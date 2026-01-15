@@ -1,5 +1,5 @@
 import { Button } from '@/app/components/ui/button';
-import { Handshake, Phone } from 'lucide-react';
+import { Handshake, Phone, Mail } from 'lucide-react';
 import deltaKLogo from '@/assets/delta-k-logo.png';
 
 export function Header() {
@@ -35,6 +35,17 @@ export function Header() {
 
           {/* Right side CTAs */}
           <div className="flex items-center gap-3">
+            {/* Email CTA - hidden on small screens */}
+            <a href="mailto:steve@deltatec.ca" className="hidden lg:block">
+              <Button 
+                variant="ghost" 
+                className="text-slate-300 hover:text-amber-400 gap-2"
+              >
+                <Mail className="w-4 h-4" />
+                <span>steve@deltatec.ca</span>
+              </Button>
+            </a>
+
             {/* Partner CTA - prominent */}
             <Button 
               onClick={scrollToPartners}
