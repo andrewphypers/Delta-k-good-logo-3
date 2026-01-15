@@ -26,8 +26,18 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 lg:px-8">
         <div className="max-w-3xl">
           {/* Logo */}
+           {/* Logo */}
           <div className="mb-8">
-            <Logo className="h-24 md:h-32" variant="full" />
+            <div className="flex items-center gap-4">
+              <div className="flex flex-col justify-center">
+                <div className="text-5xl md:text-6xl font-bold text-white">
+                  DELTA K
+                </div>
+                <div className="text-lg tracking-wider text-amber-400">
+                  KOOTENAY GROUP
+                </div>
+              </div>
+            </div>
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-white mb-6">
