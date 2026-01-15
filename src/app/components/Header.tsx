@@ -15,7 +15,9 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Logo className="h-14" variant="full" />
+           <div className="text-2xl font-bold text-white">
+  Delta K
+</div>
           </div>
 
           {/* Right side CTAs */}
