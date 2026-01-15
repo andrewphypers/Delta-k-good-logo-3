@@ -1,5 +1,7 @@
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { Button } from '@/app/components/ui/button';
+import deltaKLogo from 'figma:asset/18be65b0dd811e67ddb7de17968686d567ee83f8.png';
+
 export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-20">
@@ -26,9 +28,13 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 lg:px-8">
         <div className="max-w-3xl">
           {/* Logo */}
-           {/* Logo */}
           <div className="mb-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
+              <img 
+                src={deltaKLogo} 
+                alt="Delta K - Kootenay Group" 
+                className="h-32 md:h-40 lg:h-48 w-auto"
+              />
               <div className="flex flex-col justify-center">
                 <div className="text-5xl md:text-6xl font-bold text-white">
                   DELTA K
