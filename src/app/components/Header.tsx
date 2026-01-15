@@ -1,4 +1,3 @@
-import { Logo } from '@/app/components/Logo';
 import { Button } from '@/app/components/ui/button';
 import { Handshake, Phone } from 'lucide-react';
 
