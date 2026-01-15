@@ -1,5 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
-import deltaKLogo from 'figma:asset/18be65b0dd811e67ddb7de17968686d567ee83f8.png';
+import deltaKLogo from '@/assets/delta-k-logo.png';
 
 export function Footer() {
   return (
