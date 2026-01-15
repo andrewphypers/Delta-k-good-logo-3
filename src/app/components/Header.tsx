@@ -1,5 +1,6 @@
 import { Button } from '@/app/components/ui/button';
 import { Handshake, Phone } from 'lucide-react';
+import deltaKLogo from 'figma:asset/18be65b0dd811e67ddb7de17968686d567ee83f8.png';
 
 export function Header() {
   const scrollToPartners = () => {
@@ -15,9 +16,21 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-           <div className="text-2xl font-bold text-white">
-  Delta K
-</div>
+            <div className="flex items-center gap-4">
+              <img 
+                src={deltaKLogo} 
+                alt="Delta K - Kootenay Group" 
+                className="h-12 md:h-14 w-auto"
+              />
+              <div className="flex flex-col justify-center">
+                <div className="text-2xl md:text-3xl font-bold text-white">
+                  DELTA K
+                </div>
+                <div className="text-xs tracking-wider text-amber-400">
+                  KOOTENAY GROUP
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Right side CTAs */}
