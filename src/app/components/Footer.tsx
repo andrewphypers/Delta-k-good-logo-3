@@ -1,5 +1,3 @@
-import { Logo } from '@/app/components/Logo';
-
 export function Footer() {
   return (
     <footer className="bg-slate-900 py-12">
