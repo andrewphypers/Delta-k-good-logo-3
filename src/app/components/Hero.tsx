@@ -1,7 +1,5 @@
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { Button } from '@/app/components/ui/button';
-import { Logo } from '@/app/components/Logo';
-
 export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-20">
