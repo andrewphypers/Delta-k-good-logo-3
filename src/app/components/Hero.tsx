@@ -1,6 +1,6 @@
-import deltaKLogo from '@/assets/delta-k-logo.png';
+import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { Button } from '@/app/components/ui/button';
-import deltaKLogo from 'figma:asset/18be65b0dd811e67ddb7de17968686d567ee83f8.png';
+import deltaKLogo from '@/assets/delta-k-logo.png';
 
 export function Hero() {
   return (
